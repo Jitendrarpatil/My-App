@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D4187A4222BB25BF00E8933E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4187A4122BB25BF00E8933E /* LoginViewController.swift */; };
 		D428CF9D22BA9000008B1827 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D428CF9C22BA9000008B1827 /* AppDelegate.swift */; };
 		D428CF9F22BA9000008B1827 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D428CF9E22BA9000008B1827 /* ViewController.swift */; };
 		D428CFA222BA9000008B1827 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D428CFA022BA9000008B1827 /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D4187A4122BB25BF00E8933E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		D428CF9922BA9000008B1827 /* My App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D428CF9C22BA9000008B1827 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D428CF9E22BA9000008B1827 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -76,6 +78,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D4187A4022BB259200E8933E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D4187A4122BB25BF00E8933E /* LoginViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		D428CF9022BA9000008B1827 = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +109,7 @@
 		D428CF9B22BA9000008B1827 /* My App */ = {
 			isa = PBXGroup;
 			children = (
+				D4187A4022BB259200E8933E /* Controllers */,
 				D428CF9C22BA9000008B1827 /* AppDelegate.swift */,
 				D428CF9E22BA9000008B1827 /* ViewController.swift */,
 				D428CFA022BA9000008B1827 /* Main.storyboard */,
@@ -259,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4187A4222BB25BF00E8933E /* LoginViewController.swift in Sources */,
 				D428CF9F22BA9000008B1827 /* ViewController.swift in Sources */,
 				D428CFA522BA9000008B1827 /* My_App.xcdatamodeld in Sources */,
 				D428CF9D22BA9000008B1827 /* AppDelegate.swift in Sources */,
